@@ -1,0 +1,4 @@
+<h2>Vote</h2>
+{% for c in candidates %}
+  {{c[1]}} <a href="/cast/{{c[0]}}">Vote</a><br>
+{% endfor %}
