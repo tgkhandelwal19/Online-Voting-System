@@ -1,0 +1,62 @@
+/* Global Reset and Typography */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Nav Bar Customizations */
+.navbar {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb) !important;
+}
+
+.custom-nav-btn {
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Feature Cards */
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Candidate Cards */
+.candidate-card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.candidate-card:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+    transform: translateY(-5px);
+}
+
+/* Forms and Inputs */
+.form-control:focus, .input-group-text {
+    box-shadow: none;
+    border-color: #8f94fb;
+}
+
+/* Generic Utilities */
+.text-primary {
+    color: #4e54c8 !important;
+}
+.btn-primary {
+    background-color: #4e54c8;
+    border-color: #4e54c8;
+}
+.btn-primary:hover {
+    background-color: #3b4096;
+    border-color: #3b4096;
+}
+
+/* Charts container */
+.chart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
