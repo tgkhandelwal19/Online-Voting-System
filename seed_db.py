@@ -17,11 +17,11 @@ def seed_database():
 
         # 1. Create 5 Candidates
         candidates_data = [
-            {"name": "Alice Johnson", "party": "Progressive Party", "agenda": "Focus on education and healthcare sector improvements."},
-            {"name": "Bob Smith", "party": "Conservative Front", "agenda": "Tax cuts and business growth for a stronger economy."},
-            {"name": "Charlie Davis", "party": "Green Alliance", "agenda": "Environmental protection, climate action, and renewable energy."},
-            {"name": "Diana Prince", "party": "Independent", "agenda": "Government transparency, civil rights, and anti-corruption."},
-            {"name": "Evan Wright", "party": "Tech Forward", "agenda": "Modernize digital infrastructure, privacy laws, and tech grants."}
+            {"name": "Narendra Modi", "party": "Bharatiya Janata Party", "agenda": "Cultural nationalism (Hindutva), economic development, and governance reforms."},
+            {"name": "Rahul Gandhi", "party": "Indian National Congress", "agenda": "Defending the Indian Constitution, fighting institutional capture, and promoting social equality."},
+            {"name": "Arvind Kejriwal", "party": "Aam Aadmi Party", "agenda": "Fighting corruption, delivering honest governance, and providing accessible public welfare."},
+            {"name": "Mamta Banerjee", "party": "All India Trinamool Congress", "agenda": "Grassroots empowerment, secularism, and social justice."},
+            {"name": "C. Joseph Vijay", "party": "Tamilaga Vettri Kazhagam", "agenda": "Secularism, social justice, egalitarianism, and a corruption-free administration."}
         ]
         
         db_candidates = []
